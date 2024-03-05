@@ -11,8 +11,16 @@ from pathlib import Path
 from typing import Any
 import base64
 
+# ensure_annotations make sure that function would take only pre-defined type of arguments.
+# Means typeof(parameters) = typeof(arguments) , then only the function will work ,otherwise throws an error.
 
 
+# yaml file will give you a output as python dictionary.
+# You can access values using below method:
+# d['key_name'] 
+# But this is a time consuming process like using a square box.
+# So we use ConfigBox through which we can access dict values in an easy manner like below:-
+# d.key_name
 @ensure_annotations
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
     """reads yaml file and returns
