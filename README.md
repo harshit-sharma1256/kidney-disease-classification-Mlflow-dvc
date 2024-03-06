@@ -6,7 +6,7 @@
 1. Update Configuration: Make necessary changes to the configuration file (config.yaml).
 2. (Optional) Update Secrets: If needed, update sensitive information in the secrets file (secrets.yaml).
 3. Update Parameters: Modify parameters in the params file (params.yaml).
-4. Update the Entity: Update the return type of a function in your code.
+4. Update the Entity: Update the return type of a function in your code.(To update entities first write code in research folder experiment notebook then make it an entity.)
 5. Update Configuration Manager: Make changes to the configuration manager located in the 'src/config' folder.
 6. Update Components: Modify and enhance the components of your project.
 7. Update the Pipeline: Make updates to the project's data processing pipeline.
