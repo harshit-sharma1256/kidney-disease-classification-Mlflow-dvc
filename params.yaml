@@ -1,1 +1,8 @@
-key : value 
+AUGMENTATION: True
+IMAGE_SIZE: [224, 224, 3] # as per VGG 16 model
+BATCH_SIZE: 16
+INCLUDE_TOP: False  #Using only CONV layers.
+EPOCHS: 1      #For learning purpose we are taking 1 because it will take time. But you should take at least 100 to 200 EPOCHS.
+CLASSES: 2    # Normal and Tumor
+WEIGHTS: imagenet #Model pretrained on imagenet dataset.
+LEARNING_RATE: 0.01
