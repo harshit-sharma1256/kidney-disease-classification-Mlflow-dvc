@@ -19,3 +19,14 @@ class PrepareBaseModelConfig:
     params_include_top: bool
     params_weights: str
     params_classes: int
+
+@dataclass(frozen=True)
+class TrainingConfig:
+    root_dir: Path      # training folder path
+    trained_model_path: Path  # trained model would be saved here
+    updated_base_model_path: Path  # NN used for training
+    training_data: Path  # dataset used for training
+    params_epochs: int    # Number of epochs 
+    params_batch_size: int # Batch size during training
+    params_is_augmentation: bool
+    params_image_size: list   #Input image size
