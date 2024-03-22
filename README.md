@@ -29,13 +29,13 @@ git clone https://github.com/harshit-sharma1256/kidney-disease-classification-Ml
 1. After opening the repository, create a Conda environment using the following commands:
 
 ```bash
-conda create -n kidney python=3.8 -y
+conda create -p kidney python=3.8 -y
 ```
 
    - Note: You can replace "chicken" with any desired environment name.
 
 ```bash
-conda activate chicken
+conda activate kidney
 ```
 
    - Note: If you are using the latest version of Anaconda, use the following command:
